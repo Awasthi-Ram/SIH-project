@@ -1,0 +1,56 @@
+body{  
+    font-family: Calibri, Helvetica, sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-image: url(camp_img.jpg); 
+    background-size: cover;
+  }  
+  label{
+    font-size:x-large;
+    font-weight: 400;
+    color: #000000;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+  }
+  .container {  
+    width: 800px;
+    top:50%;
+    left:25%;
+      padding: 50px; 
+      position: absolute; 
+      padding:54px;
+    background:rgba(0,0, 0, 0.5); 
+    text-align: center;
+  }  
+  input[type=text], input[type=password], textarea , input[type=section] {  
+    width: 100%;  
+    padding: 15px;  
+    margin: 5px 0 22px 0;  
+    display: inline-block;  
+    border: none;  
+    background: #f1f1f1;  
+  }  
+  input[type=text]:focus, input[type=password]:focus ,input[type=section]:focus {  
+    background-color: orange;  
+    outline: none;  
+  }  
+   div {  
+              padding: 10px 0;  
+           }  
+  hr {  
+    border: 1px solid #f1f1f1;  
+    margin-bottom: 25px;  
+  }  
+  .registerbtn {  
+    background-color: #4CAF50;  
+    color: white;  
+    padding: 16px 20px;  
+    margin: 8px 0;  
+    border: none;  
+    cursor: pointer;  
+    width: 100%;  
+    opacity: 0.9;  
+  }  
+  .registerbtn:hover {  
+    opacity: 1;  
+  } 
